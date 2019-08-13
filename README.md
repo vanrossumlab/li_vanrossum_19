@@ -7,7 +7,7 @@ List of files perceptron code to produce the data for Figure 1 and can be edited
 - Makefile: compiles runc.cc
 
 The Octave script runs multi-threaded using pararrayfun;
-replacing it with arrayfun.
+replacing it with arrayfun will run single threaded.
 Conversion to Matlab should be straightforward and is left as an exercise.
 
 List of multi-layer codes to produce Figure 4. Each panel in the figure has a specific code to generate its data, which then is plotted by a respective "MakePlot" Python code.

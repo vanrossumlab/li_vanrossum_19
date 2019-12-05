@@ -15,3 +15,8 @@ List of multi-layer codes to produce Figure 4. Each panel in the figure has a sp
 - energy_vs_accuracy.py: for (b), the plotting code is energy_vs_accuracy_MakePlot.py
 - nHidden.py: for (c), the plotting code is nHidden_MakePlot.py
 - KleinFunction.py: this contains the function that conducts the back-propagation training, and is called by the Python codes above.
+
+List of codes to produce the energy cost of learning by using D'Souza et al. (2010) learning rule (Figure 2-Figure 1 Supplement):
+- standalone_STDP.py: generating data
+- standaloneFunction.py: contains functions that are called by standalone_STDP.py
+- makeplot.py: for analysing the data and plotting the result.

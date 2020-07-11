@@ -1,12 +1,13 @@
 # li_vanrossum_19
-This contains the simulation code to our paper.
+This contains the simulation code to our paper 
+  Energy efficient synaptic plasticity. eLife 2020 Feb 13;9:e50804. doi: 10.7554/eLife.50804.
 
 List of files perceptron code to produce the data for Figure 1 and can be edited to produce the data for the other figures related to the perceptron.
-- cperc.m: Octave file for simulating perceptron learning
+- cperc.m: Octave file for simulation of perceptron learning
 - runc.cc: For efficiency, the actual learning is done in this C code.
 - Makefile: compiles runc.cc
 
-The Octave script runs multi-threaded using pararrayfun;
+The Octave script runs multi-threaded using pararrayfun; this might have broken in recent version of pararrayfun in Octave
 replacing it with arrayfun will run single threaded.
 Conversion to Matlab should be straightforward and is left as an exercise.
 
